@@ -155,7 +155,8 @@
 	#address-cells = <1>;
 	#size-cells = <0>;
 	pinctrl-names = "default";
-	pinctrl-0 = <&emmc_gpio34>;
+//	pinctrl-0 = <&emmc_gpio34>;
+    pinctrl-0 = <&sdhost_gpio48>;
 	status = "okay";
 	bus-width = <4>;
 	non-removable;
